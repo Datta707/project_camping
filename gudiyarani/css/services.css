@@ -1,0 +1,19 @@
+#mid-section {
+  color: #222222; }
+  #mid-section .card {
+    transition: 0.5s; }
+  #mid-section h4 {
+    color: #da9d41; }
+  #mid-section img {
+    height: 120px;
+    width: 120px;
+    margin: auto;
+    transition: 0.5s;
+    padding: 30px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); }
+  #mid-section .card:hover > .card-img-top {
+    background-color: #da9d41; }
+  #mid-section .card:hover {
+    background-color: #222222; }
+
+/*# sourceMappingURL=services.css.map */

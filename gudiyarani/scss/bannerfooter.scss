@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Signika');
+
+$primary-color : #da9d41;
+$secondary-color:#222222;
+body{
+	color:$secondary-color;
+	font-family: 'Signika', sans-serif;
+	font-size:18px;
+}
+h2{
+	color:$primary-color;
+}
+
+#banner{
+	overflow:hidden;
+	background-image:url("../images/index/banner.jpeg");
+	background-position-y: 70%;
+	background-size:cover;
+	height:100vh;
+	position:relative;
+	.my-nav{
+		background-color:$secondary-color;
+	}
+	.overlay{
+		position:absolute;
+		height: 100%;
+		width: 100%;
+		left:0;
+		top:0;
+		background:url("../images/index/dott.png")repeat 0px 0px;
+	}
+	img{
+		height:40px;
+		width:200px;
+	}
+	
+	
+	.navbar-brand{
+		color:white !important;
+		font-size:2rem !important;
+	}
+	.nav-link:after {
+        position: absolute;
+        content: '';
+        height: 2px;
+        bottom: 0px; 
+         margin: 0 auto;
+		  left: 0;
+        right: 0;
+		  width: 0%;
+		  background: $primary-color;
+        transition:.5s;
+    }
+    .nav-item{
+    	position:relative;
+    }
+	 
+
+	 /* optional hover classes used with anmiation */
+	  .nav-link:hover:after {
+		  width: 80%;
+		  background: $primary-color;
+    }
+	.nav-link{
+		color:white !important;
+		
+		font-weight:600;
+		margin-left:5px;
+		margin-right:5px;
+		letter-spacing:2px;
+
+	}
+	.nav-link:hover{
+		color:$primary-color !important;
+	}
+	.navbar-brand:hover{
+		color: $primary-color !important;
+	}
+	.navbar-toggler{
+		color: $primary-color ;
+	}
+	.fa-bars{
+		font-size: 1.5rem !important;
+	}
+#banner-content{
+h1{
+	color:white;
+	font-size:3rem;
+}
+height:100%;
+.row{
+	height:80%;
+}
+.my-btn-outline{
+	color:white;
+	border:2px solid white;
+	width:200px;
+	font-size:1.2rem;
+	font-weight:600;
+	border-radius:0px;
+}
+.my-btn-outline:hover{
+	background-color:$primary-color;
+	border:2px solid $primary-color;
+}
+}
+	
+}
+#footer-main{
+	background-color:$secondary-color;
+	.my-link{
+		color:$primary-color;
+		font-size:1.2rem;
+	}
+	.my-link:hover{
+		text-decoration:none;
+	}
+	
+	li{
+		list-style: none;
+	}
+	.fas{
+
+		color:$primary-color;
+	}
+}

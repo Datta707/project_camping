@@ -1,0 +1,15 @@
+$primary-color : #da9d41;
+$secondary-color:#222222;
+#mid-section{
+	color:$secondary-color;
+	.fas{
+		color:$primary-color;
+	}
+	.card-header{
+		color:$primary-color;
+	}
+	span{
+		color:$primary-color;
+	}
+	
+}

@@ -1,0 +1,31 @@
+$primary-color : #da9d41;
+$secondary-color:#222222;
+
+#mid-section{
+	
+	color:$secondary-color;
+	.card{
+		transition:0.5s;
+	}
+	h4{
+		color:$primary-color;
+	}
+	img{
+		height:120px;
+		width:120px;
+		margin:auto;
+		transition:0.5s;
+		padding:30px;
+		// border-radius:50%;
+clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+
+	}
+	.card:hover > .card-img-top{
+		background-color:$primary-color;
+		
+	};
+	.card:hover{
+		background-color:$secondary-color;
+		
+	}
+}

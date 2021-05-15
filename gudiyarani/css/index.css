@@ -1,0 +1,30 @@
+#mid-section img {
+  height: 100%;
+  width: 100%; }
+#mid-section .btn-primary, #mid-section .btn-secondary {
+  background-color: #da9d41;
+  border: 2px solid #da9d41;
+  border-radius: 0;
+  font-size: 1.1rem; }
+#mid-section .btn-secondary {
+  background-color: #222222;
+  border: 2px solid #222222; }
+#mid-section .btn-primary:hover {
+  background-color: #222222;
+  border: 2px solid #222222; }
+#mid-section .btn-secondary:hover {
+  background-color: #da9d41;
+  border: 2px solid #da9d41; }
+
+@media (max-width: 768px) {
+  #banner {
+    background-position-x: 80%; }
+    #banner h1 {
+      font-size: 2.5rem !important; } }
+#map {
+  border-top: 5px dotted #da9d41;
+  border-bottom: 5px dotted #da9d41; }
+  #map div {
+    height: 40vh; }
+
+/*# sourceMappingURL=index.css.map */

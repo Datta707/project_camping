@@ -1,0 +1,26 @@
+#banner {
+  height: 70vh; }
+
+#mid-section h4 {
+  color: #da9d41; }
+
+#destinations {
+  background: #222222;
+  color: #222222; }
+  #destinations h1 {
+    color: white; }
+  #destinations h4 {
+    color: #da9d41; }
+  #destinations li {
+    list-style: none; }
+  #destinations ul {
+    padding: 0; }
+
+#itenerary .primary-bg {
+  background-color: #da9d41;
+  color: #222222; }
+#itenerary .secondary-bg {
+  background-color: #222222;
+  color: #da9d41; }
+
+/*# sourceMappingURL=about.css.map */
